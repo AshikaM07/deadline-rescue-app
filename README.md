@@ -18,10 +18,12 @@ Calendar apps show when work is due, not whether you still have time to do it. A
 
 - **Risk scoring:** ranks every deadline by the work left and the time left, and explains the reason and the next step.
 - **Rescue mode:** a live countdown, bite-sized steps and a 25-minute sprint timer.
+- **Exam mode and repeating deadlines:** plans revision across the days left, and adds next week's lab record when you finish this one.
+- **Home-screen widget:** shows the most at-risk deadlines without opening the app.
 - **Estimate learning:** learns how long your work really takes, and adjusts your estimates on the phone.
 - **Reminders:** arrive on time with the app closed and no internet, and survive a phone restart.
 - **Calendar and progress charts:** show how busy your week is and how accurate your estimates are.
-- **Backup:** export to a file and import it on any phone.
+- **Backup:** a daily automatic backup on the phone, plus export and import of backup files.
 
 ## How it's built
 
@@ -44,22 +46,22 @@ Calendar apps show when work is due, not whether you still have time to do it. A
 
 ## Quality
 
-- 422 automated tests, 88% line coverage, run by CI on every push
+- 460 automated tests, 86% line coverage, run by CI on every push
 - Manual device checklist run on an Android 16 emulator
 - Runs on a real Android phone
 
 ## Install
 
 1. Open the [latest release](https://github.com/AshikaM07/deadline-rescue-app/releases/latest) on an Android phone.
-2. Download `deadline-rescue-1.0.0.apk` and open it.
+2. Download `deadline-rescue-1.1.0.apk` and open it.
 3. Allow your browser to install apps if asked.
 4. If Play Protect warns you, tap **More details > Install anyway**. It appears because the app isn't on the Play Store.
 
-Needs Android 7 or newer on a 64-bit phone. See the [release notes](release-notes-v1.0.0.md) for known limitations, and [privacy](privacy.md) for how data is handled: it stays on your phone.
+Needs Android 7 or newer on a 64-bit phone. See the [release notes](release-notes-v1.1.0.md) for known limitations, and [privacy](privacy.md) for how data is handled: it stays on your phone.
 
 ## Status
 
-v1.0.0 is released and still being improved. The source code is in a private repository and is available on request.
+v1.1.0 is released and still being improved. The source code is in a private repository and is available on request.
 
 ## Author
 
