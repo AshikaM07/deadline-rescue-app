@@ -46,22 +46,22 @@ Calendar apps show when work is due, not whether you still have time to do it. A
 
 ## Quality
 
-- 460 automated tests, 86% line coverage, run by CI on every push
+- 472 automated tests, 85% line coverage, run by CI on every push
 - Manual device checklist run on an Android 16 emulator
 - Runs on a real Android phone
 
 ## Install
 
 1. Open the [latest release](https://github.com/AshikaM07/deadline-rescue-app/releases/latest) on an Android phone.
-2. Download `deadline-rescue-1.1.0.apk` and open it.
+2. Download `deadline-rescue-1.2.0.apk` and open it.
 3. Allow your browser to install apps if asked.
 4. If Play Protect warns you, tap **More details > Install anyway**. It appears because the app isn't on the Play Store.
 
-Needs Android 7 or newer on a 64-bit phone. See the [release notes](release-notes-v1.1.0.md) for known limitations, and [privacy](privacy.md) for how data is handled: it stays on your phone.
+Needs Android 7 or newer on a 64-bit phone. See the [release notes](release-notes-v1.2.0.md) for known limitations, and [privacy](privacy.md) for how data is handled: it stays on your phone.
 
 ## Status
 
-v1.1.0 is released and still being improved. The source code is in a private repository and is available on request.
+v1.2.0 is released and still being improved. The source code is in a private repository and is available on request.
 
 ## Author
 

@@ -1,14 +1,22 @@
-# Deadline Rescue v1.1.0
+# Deadline Rescue v1.2.0
 
 An offline Android app that shows students which deadlines are in trouble and helps them get the work done. No account and no internet needed.
 
 ## Install
 
-1. Download `deadline-rescue-1.1.0.apk` on your Android phone.
+1. Download `deadline-rescue-1.2.0.apk` on your Android phone.
 2. Open it, and allow your browser to install apps if asked.
 3. If Play Protect warns you, tap **More details > Install anyway**. It appears because the app isn't on the Play Store.
 
 Needs Android 7 or newer on a 64-bit phone. Updating from an earlier version keeps your data.
+
+## New in 1.2.0
+
+- Finishing or deleting a deadline now cancels its snooze and its sprint.
+- Your streak counts deadlines by due date, so finishing old work late doesn't reset it. On time and missed cover the last 30 days.
+- Moving an exam re-plans the study days you haven't done.
+- The widget uses your learned pace, follows your theme, and also makes the daily backup.
+- Links in notes are tappable, and Profile has a vibration switch.
 
 ## What's in it
 
@@ -25,11 +33,11 @@ Needs Android 7 or newer on a 64-bit phone. Updating from an earlier version kee
 - **Calendar and Progress:** see how busy your week is, your focus time, and how accurate your estimates are.
 - **Add to calendar:** opens your calendar app with the deadline filled in.
 - **Backup:** a daily automatic backup kept on your phone, plus export and import of backup files.
-- **Light and dark themes**, which can follow your phone.
+- **Light and dark themes**, which can follow your phone, and a switch for vibration.
 
 ## Testing
 
-460 automated tests run on every push. All features were checked on an Android 16 emulator with airplane mode on. Real-phone testing is still in progress.
+472 automated tests run on every push. All features were checked on an Android 16 emulator with airplane mode on. Real-phone testing is still in progress.
 
 ## Known limitations
 
