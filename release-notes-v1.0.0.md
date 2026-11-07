@@ -33,4 +33,3 @@ Needs Android 7 or newer on a 64-bit phone.
 - 64-bit Android phones only.
 - "The day before" and "an hour after" reminders can arrive up to an hour late, to save battery.
 - Force-stopping the app cancels its reminders until it's next opened.
-- Rescue mode steps aren't part of sync yet, because sync arrives in Phase 2.
